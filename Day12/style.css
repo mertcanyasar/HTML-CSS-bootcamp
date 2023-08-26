@@ -1,0 +1,10 @@
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    
+}
+p{
+    cursor: pointer;
+    font-size: smaller !important;
+    font-size: large;
+}

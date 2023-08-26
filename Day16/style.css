@@ -1,0 +1,89 @@
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    position: relative;
+    outline: none;
+    border: none;
+    
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.75em 1.75em;
+    border-radius: 50px;
+    display: inline-block;
+    color: aqua;
+}
+.btn:hover{
+    background-color: yellow;
+}
+button:hover:active::after {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+  }
+button:hover::after {
+    /* Changing blur effect */
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+  
+    /* And change the style properties */
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+  }
+button::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: -10px;
+    left: 5%;
+    height: 110%;
+    width: 90%;
+    opacity: 0.8;
+    border-radius: 50px;
+    
+    /* Declaring our shadow color inherit from the parent (button) */
+    background: inherit;
+    
+    /* Blurring the element for shadow effect */
+    -webkit-filter: blur(6px);
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+    filter: blur(6px);
+    
+    /* Transition for the magic */
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
+.btn:focus{
+    background-color: purple;
+}
+.image-box{
+    border-radius: 30px;
+    
+    width: 100%;
+   
+}
+
+    body{
+        background-color: darkgray;
+    }
+
+
+header{
+    
+    color: white;
+}
+h1{
+    text-align: center;
+}

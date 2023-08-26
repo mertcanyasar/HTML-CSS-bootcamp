@@ -1,0 +1,63 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #012840;
+}
+
+li {
+  float:right
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+h1{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+.p2{
+    width: 50%;
+}
+img{
+    align-items: center;
+    float: right;
+    max-width: 500px;
+
+ }
+.pagination{
+    
+display: inline-block;
+
+ }
+ .pagination a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 4px;}
+    .pagination a:active{
+        background-color: coral;
+        color: white
+        border 1px solid black;
+    }
+    h2{
+        visibility: hidden;
+    }
+ .pagination.h2{
+    visibility: visible;
+
+ }

@@ -1,0 +1,26 @@
+input[type=text]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 4px;
+    
+}
+
+header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 25px;
+    
+    width:50%;
+    background-image: linear-gradient(to right, lightblue,aqua);
+}
+div{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 25px;
+    
+    width:50%;
+    background-image: linear-gradient(to right, lightblue,aqua);
+}

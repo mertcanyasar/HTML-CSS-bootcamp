@@ -1,0 +1,215 @@
+ul{
+   list-style-type: none;
+   display: flex;
+   
+   justify-content: right;
+   
+}
+
+li{
+   padding: 3%;
+    text-decoration: none;
+    
+    font-size: large;
+}
+li:hover{
+    background-color: rgb(2, 43, 115);
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    padding-left: 25%;
+    
+    width: 75%;
+    
+background-color: rgb(0, 71, 71);
+}
+.hero{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: beige;
+}
+h1,h2,button{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(31, 30, 30);
+}
+button:hover{
+    scale: 1.3;
+    }
+.photosSection{
+    
+    display: flex;
+    
+    
+}
+.Services{
+
+    text-align: center;
+}
+.joinusimg{
+    box-shadow: none;
+    display: flex;
+    justify-content: left;
+    width: 500px;
+    height: 500px;
+    padding-right: 5%;
+    padding-left: 10%;
+    
+    border-radius: 0;
+}
+img{
+    
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 15px 2px aqua;
+}
+.formSection{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    padding-right: 15%;
+    padding-top: 10%;
+}
+input{
+    padding: 5%;
+    text-align: left;
+}
+#sendMB{
+    margin-left: 25%;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 800px){
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        
+        
+     }
+     
+     li{
+        padding: 3%;
+         text-decoration: none;
+         width: 50%;
+        padding-left: 35%;
+     }
+     li:hover{
+         background-color: rgb(2, 43, 115);
+        
+     }
+     a{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 100%;
+         text-decoration: none;
+         color: white;
+     }
+     header{
+        
+     background-color: rgb(0, 71, 71);
+     }
+     .hero{
+         padding: 0;
+         margin: 0;
+         text-align: center;
+         background-color: beige;
+     }
+     h1,h2,button{
+         
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     button{
+        justify-self: center;
+         max-width: fit-content;
+         padding: 6px;
+         padding-left: 10px;
+         padding-right: 10px;
+         border-radius: 5px;
+         color: white;
+         background-color: rgb(31, 30, 30);
+     }
+     button:hover{
+         scale: 1.3;
+         }
+     
+   
+     .joinusimg{
+         
+         display: flex;
+         justify-content: left;
+         width: 100%;
+         padding-right: 5%;
+         padding-left: 10%;
+         
+         border-radius: 0;
+     }
+     img{
+       justify-self: center;  
+         width: 90%;
+         border-radius: 10px;
+         box-shadow: 2px 3px 15px 2px aqua;
+     }
+     .formSection{
+        padding-left: 25%;
+        width: 50%;
+       display: grid;
+       grid-column: span;
+     }
+     .photosSection{
+        
+        display: grid;
+        grid-column: span;
+     }
+     form{
+        padding-left: 25%;
+        justify-self: right;
+     }
+     input{
+         padding: 5%;
+         text-align: left;
+     }
+     #sendMB{
+         margin-left: 20%;
+     }
+     .Services{
+        
+        padding-top: 10%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-column: span;
+     }
+     
+     h3{
+         margin: 0;
+         padding: 0;
+         height: 100px;
+         background-color: gray;
+         text-align: center;
+         
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+}

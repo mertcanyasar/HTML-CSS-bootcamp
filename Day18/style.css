@@ -1,0 +1,68 @@
+header{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(48, 48, 215);
+    text-align: center;
+    color: white;
+    
+    
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.About{
+    width: 30%;
+    float: left;
+    text-align: center;
+    
+}
+.Services{
+    width: 30%;
+    text-align: center;
+    
+}
+.Contact{
+    
+    
+    width: 30%;
+    float: right;
+   
+   text-align: center;
+}
+img{
+   width: 100%;
+   border-radius: 20px;
+   display: flex;
+   justify-content: inherit;
+   
+    
+    
+}
+main{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+section{
+    
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 10px gray;
+    border: 2px solid white;
+    
+    
+}
+h2{
+    font-size: smaller;
+}
+footer{
+    
+    
+    margin-top: 3%;
+    text-align: center;
+    font-size: 7%;
+}
+section:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+}

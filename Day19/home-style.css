@@ -1,0 +1,158 @@
+li{
+    float: right;
+}
+a{
+    
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+
+a:hover{
+    background-color: rgb(45, 45, 112);
+}
+
+
+header{
+    width: 100%;
+    background-color: rgb(68, 68, 154);
+    float: right;
+    
+}
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4139d6;
+    
+}
+main
+{
+   
+    
+    
+    text-align: center;
+    
+    background-image:url("Background.png");
+ height: 100vh;
+ background-repeat: no-repeat;
+ width: 100%;
+ background-size: cover;
+ background-position: center center;
+
+}
+
+h1{
+    padding-top: 25%;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+p{
+    padding-top: 5%;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:100;
+display: inline-block;
+width: 60%;
+}
+button{
+   justify-content: space-evenly;
+background-color: rgb(47, 47, 47);
+margin-top: 5%;
+margin-bottom: 15%;
+  border-radius: 10%;
+  
+}
+button:hover{
+    scale: 1.1;
+    
+}
+h2{
+  font-weight: normal;
+    font-size: small;
+color: white;
+
+}
+@media only screen and (max-width: 600px) {
+  li{
+  float:inherit;
+}
+a{
+  
+  display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;}
+
+a:hover{
+  background-color: rgb(45, 45, 112);
+}
+
+
+header{
+  width: 100%;
+  background-color: rgb(68, 68, 154);
+  float: right;
+  
+}
+ul{
+  list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #4139d6;
+  
+}
+main
+{
+ 
+  
+  
+  text-align: center;
+  
+  background-image:url("Background.png");
+height: 100vh;
+background-repeat: no-repeat;
+width: 100%;
+background-size: cover;
+background-position: center center;
+
+}
+
+h1{
+  
+  padding-top: 25%;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+}
+p{
+  padding-top: 5%;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:100;
+display: inline-block;
+width: 60%;
+}
+button{
+ justify-content: space-evenly;
+background-color: rgb(47, 47, 47);
+margin-top: 5%;
+margin-bottom: 15%;
+border-radius: 10%;
+
+}
+button:hover{
+  scale: 1.1;
+  
+}
+h2{
+font-weight: normal;
+  font-size: small;
+color: white;
+
+}}
